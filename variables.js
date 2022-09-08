@@ -1,0 +1,17 @@
+export{  navbarcolor , navbarcolordark , navbarcolordarkwhite , navbarcolorinput , navbarcolorrandom , navbarcolorwhite , navbarclose , navbaropend , passwordcreatebutton , passwordcreateinput , passwordhidebutton , passwordshowbutton , passwordshowcopy , passwordshowinput , navbaropen }
+let navbaropen = document.getElementById('nav-bar-open')
+let navbaropend = document.getElementById('nav-bar-opend')
+let navbarclose = document.getElementById('nav-bar-close')
+let navbarcolor = document.getElementById('nav-bar-color')
+let navbarcolorrandom = document.getElementById('nav-bar-color-random')
+let navbarcolordarkwhite = document.getElementById('nav-bar-color-dark-white')
+let navbarcolordark= document.getElementById('nav-bar-color-dark')
+let navbarcolorwhite= document.getElementById('nav-bar-color-white')
+let navbarcolorinput = document.getElementById('nav-bar-color-input')
+let passwordshowinput = document.getElementById('password-show-input')
+let passwordshowcopy = document.getElementById('password-show-copy')
+let passwordshowbutton = document.getElementById('password-show-button')
+let passwordhidebutton = document.getElementById('password-hide-button')
+let passwordcreatebutton = document.getElementById('password-create-button')
+let passwordcreateinput = document.getElementById('password-create-input')
+

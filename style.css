@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.remove{
+  display: none;
+}
+body{
+  background-color: #1d2a35;
+  width: 100%;
+}
+#nav-Bar{
+padding: 0;
+}
+#nav-bar-open{
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+#nav-bar-close{
+  cursor: pointer;
+  margin-left: 250px;
+  font-size: xx-large;
+  /* margin-top: 15px; */
+}
+#nav-bar-color-dark-white , #nav-bar-color-random{
+  display: inline-flex;
+  cursor: pointer;
+  margin: 10px;
+}
+#nav-bar-color-dark{
+font-size: x-large;
+}   
+#nav-bar-color-white{
+font-size: x-large;
+}   
+#nav-bar-color-input{
+  display: block;
+}
+#password{
+  padding: 0;
+  margin-top: 200px;
+  margin-left: 700px;
+  margin-right: 467px;
+  background-color: antiquewhite;
+  position: fixed;
+  z-index: 9999999999999999999999999999999999999;
+}
+#password-show{
+  overflow: hidden;
+} 
+#password-show-input{
+  border: none;
+  background-color: black;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-weight: 100;
+  font-size: x-large;
+  display: inline;
+  color: blue;
+  width: 200px;
+}
+#password-show-copy{
+  display: inline;
+  padding: 5px;
+  cursor: pointer;
+}
+#password-show-hide-button{
+  cursor: pointer;
+  display: inline-flex;
+}
+#password-show-button{
+  padding: 5px;
+}
+ #password-hide-button{
+  padding: 5px;
+} 
+#password-create-button{
+  display: inline;
+  cursor: pointer;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 25%;
+}
+#password-create-input{
+  display: inline;
+}

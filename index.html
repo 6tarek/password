@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>passwords</title>
+  </head>
+  <body>
+<div id="continer">
+<div id="nav-Bar">
+  <div id="nav-bar-open"><i class="fa-solid fa-list-ul"></i></div>
+  <div id="nav-bar-opend" class="remove">
+    <div id="nav-bar-close"><i class="fa-sharp fa-solid fa-circle-xmark"></i></div>
+<div id="nav-bar-color">
+  <div id="nav-bar-color-random">random</div>
+<div id="nav-bar-color-dark-white">
+    <div id="nav-bar-color-dark" class="remove"><i class="fa-sharp fa-solid fa-moon"></i></div>
+    <div id="nav-bar-color-white"><i class="fa-regular fa-moon"></i></div>
+</div>
+
+    <input id="nav-bar-color-input" placeholder="" maxlength="7" type="text"/>
+</div>
+  </div>
+</div>
+<!-- value web -->
+<div id="password">
+  <div id="password-show">
+    <input id="password-show-input" type="text"readonly/>
+    <div id="password-show-copy"><i class="fa-solid fa-paste"></i></div>
+   <div id="password-show-hide-button">
+     <div id="password-show-button" class="remove"><i class="fa-solid fa-eye"></i></div>
+     <div id="password-hide-button"><i class="fa-sharp fa-solid fa-eye-slash"></i></div>
+     
+   </div>
+  </div>
+ <div id="password-create">
+   <input type="number" id="password-create-input" maxlength="2">
+   <div id="password-create-button">create</div>
+ </div>
+</div>
+</div>
+    <!-- js src -->
+    <script src="main.js" type="module"></script>
+    <script src="functions.js" type="module"></script>
+    <script src="variables.js" type="module"></script>
+  </body>
+</html>
